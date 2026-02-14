@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pkg update && pkg upgrade -y
+pkg update -y && pkg upgrade -y
 pkg install proot-distro wget -y
 proot-distro install ubuntu
 
