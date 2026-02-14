@@ -13,6 +13,8 @@ proot-distro login ubuntu -- bash -c "
     apt install openjdk-25-jdk -y
     wget -O setupServer.sh https://raw.githubusercontent.com/NoonGamez/SetupMCServerOnMobile/refs/heads/main/SetupMCserver.sh
     wget -O setupPlayit.sh https://raw.githubusercontent.com/NoonGamez/SetupMCServerOnMobile/refs/heads/main/setupPlayit.sh
+    chmod +x setupServer.sh
+    chmod +x setupPlayit.sh
 "
 proot-distro login ubuntu
 
