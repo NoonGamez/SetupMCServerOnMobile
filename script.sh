@@ -11,6 +11,8 @@ proot-distro login ubuntu -- bash -c "
     apt update -y && apt upgrade -y
     apt install wget curl -y
     apt install openjdk-25-jdk -y
+    wget https://raw.githubusercontent.com/NoonGamez/SetupMCServerOnMobile/refs/heads/main/SetupMCserver.sh
+    wget https://raw.githubusercontent.com/NoonGamez/SetupMCServerOnMobile/refs/heads/main/setupPlayit.sh
 "
 proot-distro login ubuntu
 
