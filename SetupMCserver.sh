@@ -107,5 +107,6 @@ fi
 
 
 echo -e "\e[33mCompleted\e[0m"
+echo -e "\e[33mStarting MC Server\e[0m"
 ./start.sh
 
