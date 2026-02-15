@@ -29,7 +29,7 @@ eula=true" > eula.txt
 fi
 
 #choose cracked or not
-read -p "Do you want the server to be cracked?: (y/n default:n) " opt
+read -p "Do you want the server to be cracked?: (y/n) " opt
 if [ $opt = "y" ] || [ $opt = "Y" ] || [ $opt = "yes" ]; then
 	echo "#Minecraft server properties
 #Sat Feb 14 16:48:08 IST 2026
